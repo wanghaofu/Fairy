@@ -11,25 +11,15 @@ use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
 /**
  * Dummy Cache
  *
- * @author     Amy Stephen
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @copyright  2014-2015 Amy Stephen. All rights reserved.
- * @since      1.0.0
  */
 class Dummy extends AbstractAdapter implements CacheInterface
 {
     /**
      * @covers  Fairy\Cache\Adapter\Dummy::__construct
-     * @covers  Fairy\Cache\Adapter\Dummy::__construct
-     * @covers  Fairy\Cache\Adapter\Dummy::connect
      * @covers  Fairy\Cache\Adapter\Dummy::connect
      * @covers  Fairy\Cache\Adapter\Dummy::get
-     * @covers  Fairy\Cache\Adapter\Dummy::get
-     * @covers  Fairy\Cache\Adapter\Dummy::set
      * @covers  Fairy\Cache\Adapter\Dummy::set
      * @covers  Fairy\Cache\Adapter\Dummy::remove
-     * @covers  Fairy\Cache\Adapter\Dummy::remove
-     * @covers  Fairy\Cache\Adapter\Dummy::clear
      * @covers  Fairy\Cache\Adapter\Dummy::clear
      *
      * @since   1.0

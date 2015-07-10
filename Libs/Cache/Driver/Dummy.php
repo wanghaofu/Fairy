@@ -13,16 +13,10 @@ class Dummy extends AbstractAdapter implements CacheInterface
 {
     /**
      * @covers  Fairy\Cache\Adapter\Dummy::__construct
-     * @covers  Fairy\Cache\Adapter\Dummy::__construct
-     * @covers  Fairy\Cache\Adapter\Dummy::connect
      * @covers  Fairy\Cache\Adapter\Dummy::connect
      * @covers  Fairy\Cache\Adapter\Dummy::get
-     * @covers  Fairy\Cache\Adapter\Dummy::get
-     * @covers  Fairy\Cache\Adapter\Dummy::set
      * @covers  Fairy\Cache\Adapter\Dummy::set
      * @covers  Fairy\Cache\Adapter\Dummy::remove
-     * @covers  Fairy\Cache\Adapter\Dummy::remove
-     * @covers  Fairy\Cache\Adapter\Dummy::clear
      * @covers  Fairy\Cache\Adapter\Dummy::clear
      *
      * @since   1.0

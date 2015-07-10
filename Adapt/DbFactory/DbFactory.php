@@ -1,5 +1,6 @@
 <?php
-namespace\King\Core\Fairy\Adapt\DbFactory;
+namespace Fairy\Adapt\DbFactory;
+
 class DbFactory
 {
 	static $dbNodeConns = array();

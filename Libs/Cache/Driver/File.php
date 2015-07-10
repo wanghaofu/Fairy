@@ -4,15 +4,11 @@
  *
  */
 namespace Fairy\Libs\Cache\Driver;
-namespace Fairy\Libs\Cache\Driver;
 
 use Exception;
 use DirectoryIterator;
 use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CacheItem;
 use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
-use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
 use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
 
 class File extends AbstractAdapter implements CacheInterface

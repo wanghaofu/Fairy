@@ -3,8 +3,6 @@
  * Cache Item Interface
  *
  * @package    Cache
- * @copyright  2014 Amy Stephen. All rights reserved.
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  */
 namespace Fairy\Libs\Cache\CommonApi\Cache;
 
@@ -12,8 +10,6 @@ namespace Fairy\Libs\Cache\CommonApi\Cache;
  * Cache Item Interface
  *
  * @package    Cache
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @copyright  2014 Amy Stephen. All rights reserved.
  * @since      0.1
  */
 interface CacheItemInterface

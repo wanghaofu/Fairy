@@ -1,5 +1,5 @@
 <?php
-namespace King\Core\Fairy\Adapt\NoahDbFactory;
+namespace Fairy\Adapt\NoahDbFactory;
 
 use King\Core\Fairy\Libs\Db\Db;
 

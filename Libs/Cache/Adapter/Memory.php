@@ -7,17 +7,10 @@
 namespace Fairy\Libs\Cache\Adapter;
 
 use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
 use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
 
 /**
  * Memory Cache
- *
- * @author     Amy Stephen
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @copyright  2014-2015 Amy Stephen. All rights reserved.
- * @since      1.0.0
  */
 class Memory extends AbstractAdapter implements CacheInterface
 {

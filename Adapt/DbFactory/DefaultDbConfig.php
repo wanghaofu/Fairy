@@ -1,5 +1,5 @@
 <?php
-namespace \King\Core\Fairy\Adapt\DbFactory;
+namespace Fairy\Adapt\DbFactory;
 /**
  * 配置解析类 用于解析配置文件 
  * @author wangtao

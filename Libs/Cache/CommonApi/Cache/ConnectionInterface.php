@@ -1,21 +1,14 @@
 <?php
 /**
  * Cache Connection Interface
- *
  * @package    Cache
- * @copyright  2014 Amy Stephen. All rights reserved.
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  */
-namespace  Fairy\Libs\Cache\CommonApi\Cache;
 namespace  Fairy\Libs\Cache\CommonApi\Cache;
 
 /**
  * Cache Connection Interface
  *
  * @package    Cache
- * @copyright  2014 Amy Stephen. All rights reserved.
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @since      0.1
  */
 interface ConnectionInterface
 {

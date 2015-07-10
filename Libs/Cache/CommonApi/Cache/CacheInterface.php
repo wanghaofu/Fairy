@@ -10,9 +10,6 @@ namespace Fairy\Libs\Cache\CommonApi\Cache;
  * Cache Interface
  *
  * @package    Cache
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @copyright  2014 Amy Stephen. All rights reserved.
- * @since      0.1
  */
 interface CacheInterface
 {

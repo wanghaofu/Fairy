@@ -1,5 +1,5 @@
 <?php
-namespace\King\Core\Fairy\Adapt\DbFactory;
+namespace Fairy\Adapt\DbFactory;
 /**
  * index db 扩展规则 ，根据传入的sql语句  通过配置文件，以及切分的key值 以及切分算法最后生成的idx 生成最后的sql语句
  * @author wangtao

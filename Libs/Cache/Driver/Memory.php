@@ -5,14 +5,10 @@
  * @package    Cache
  */
 namespace Fairy\Libs\Cache\Driver;
-namespace Fairy\Libs\Cache\Driver;
 
 use Exception;
 use Fairy\Cache\CacheItem;
-use Fairy\Cache\CacheItem;
 use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
-use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
 use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
 
 class Memory extends AbstractAdapter implements CacheInterface
