@@ -1,6 +1,5 @@
 <?php
 namespace Fairy\Libs\Db;
-namespace Fairy\Libs\Db;
 
 /**
  * ****************************************************************
