@@ -1,5 +1,5 @@
 <?php
-namespace Fairy\Libs\Db;
+namespace Fairy\Db;
 
 /**
  * ****************************************************************
@@ -9,7 +9,7 @@ namespace Fairy\Libs\Db;
  * QQ: 595900598
  * ****************************************************************
  */
-class Cache
+class CacheDb
 {
 
     var $db;
@@ -52,7 +52,7 @@ class Cache
      * $fileExt: 缓存文件后缀
      * **********************
      */
-    public function Cache($cachePath = null, &$db = null, $syncRedis = null, $storeRedis = null, $filePrefix = null, $fileExt = null)
+    public function CacheDb($cachePath = null, &$db = null, $syncRedis = null, $storeRedis = null, $filePrefix = null, $fileExt = null)
     {
         $this->cachePath = $cachePath;
         

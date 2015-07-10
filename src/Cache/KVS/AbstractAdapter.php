@@ -3,10 +3,10 @@
  * Abstract Adapter for Cache
  *
  */
-namespace  Fairy\Libs\Cache\Driver;
+namespace  Fairy\Cache\KVS;
 
-use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
+use Fairy\Cache\CacheItem;
+use Fairy\Cache\CacheInterface;
 
 /**
  * Abstract Adapter Cache

@@ -7,9 +7,9 @@
  * @copyright  2014-2015 Amy Stephen. All rights reserved.
  * @license    http://www.opensource.org/licenses/mit-license.html MIT License
  */
-namespace Fairy\Libs\Cache;
+namespace Fairy\Cache;
 
-use Fairy\Libs\Cache\CommonApi\Cache\CacheItemInterface;
+use Fairy\Cache\CacheItemInterface;
 
 /**
  * Cache Item Interface

@@ -4,9 +4,9 @@
  *
  * @package    Fairy
  */
-namespace Fairy\Libs\Cache;
+namespace Fairy\Cache;
 
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
+use Fairy\Cache\CacheInterface;
 
 /**
  * Cache Driver

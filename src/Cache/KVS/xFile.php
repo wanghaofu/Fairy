@@ -2,17 +2,17 @@
 /**
  * File Adapter for Cache
  */
-namespace Fairy\Libs\Cache\Driver\Adapter;
+namespace Fairy\Cache\KVS\Adapter;
 
 use DirectoryIterator;
-use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
+use Fairy\Cache\CacheItem;
+use Fairy\Cache\CacheInterface;
 
 /**
  * File Adapter for Cache
  *
  */
-class File extends AbstractAdapter implements CacheInterface
+class xFile extends AbstractAdapter implements CacheInterface
 {
     /**
      * Cache Path from Root

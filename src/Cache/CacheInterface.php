@@ -4,7 +4,7 @@
  *
  * @package    Cache
  */
-namespace Fairy\Libs\Cache\CommonApi\Cache;
+namespace Fairy\Cache;
 
 /**
  * Cache Interface

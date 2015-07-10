@@ -4,18 +4,15 @@
  *
  * @package    Fairy
  */
-namespace Fairy\Libs\Cache\Driver;
+namespace Fairy\Cache\KVS;
 
 use Exception;
-use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
+use Fairy\Exception\RuntimeException;
+use Fairy\Cache\CacheInterface;
 
 /**
  * Xcache Cache
  *
- * @author     Amy Stephen
- * @license    http://www.opensource.org/licenses/mit-license.html MIT License
- * @copyright  2014-2015 Amy Stephen. All rights reserved.
  * @since      1.0.0
  */
 class Xcache extends AbstractAdapter implements CacheInterface

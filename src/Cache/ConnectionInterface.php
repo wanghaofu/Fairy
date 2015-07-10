@@ -3,7 +3,7 @@
  * Cache Connection Interface
  * @package    Cache
  */
-namespace  Fairy\Libs\Cache\CommonApi\Cache;
+namespace  Fairy\Cache;
 
 /**
  * Cache Connection Interface

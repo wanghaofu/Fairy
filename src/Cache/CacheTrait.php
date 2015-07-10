@@ -4,7 +4,7 @@
  *
  * @package    Fairy
  */
-namespace  Fairy\Libs\Cache\CommonApi\Cache;
+namespace  Fairy\CacheCache;
 
 /**
  * Cache Trait
