@@ -1,6 +1,6 @@
 {
 	"name": "wangtao/Fairy",
-	"description":"framework ext lib',
+	"description":"framework ext lib",
 	"license" : "wangtao",
 	"keywords":["php framework ext lib db cache etc"],
 	"version": "1.0.0",
