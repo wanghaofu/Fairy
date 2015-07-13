@@ -3,13 +3,13 @@
  * Memcached
  *
  */
-namespace Fairy\Libs\Cache\Driver;
+namespace Fairy\Cache\KVS;
 
 use Exception;
 use Memcached as phpMemcached;
-use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
-use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
+use Fairy\Exception\RuntimeException;
+use Fairy\Cache\CacheItem;
+use Fairy\Cache\CacheInterface;
 
 /**
  * Memcached Cache

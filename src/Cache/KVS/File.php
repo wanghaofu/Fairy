@@ -1,15 +1,14 @@
 <?php
 /**
  * File Adapter for Cache
- *
  */
-namespace Fairy\Libs\Cache\Driver;
+namespace Fairy\Cache\KVS;
 
 use Exception;
 use DirectoryIterator;
-use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
+use Fairy\Cache\CacheItem;
+use Fairy\Exception\RuntimeException;
+use Fairy\Cache\CacheInterface;
 
 class File extends AbstractAdapter implements CacheInterface
 {

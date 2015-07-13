@@ -4,14 +4,10 @@
  *
  * @package    Fairy
  */
-namespace  Fairy\Libs\Cache\Fairy\Cache\Adapter;
-namespace  Fairy\Libs\Cache\Fairy\Cache\Adapter;
-namespace  Fairy\Libs\Cache\Fairy\Cache\Adapter;
-namespace  Fairy\Libs\Cache\Fairy\Cache\Adapter;
+namespace  Fairy\Cache\KVS;
 
 use Exception;
-use CommonApi\Exception\RuntimeException;
-use Fairy\Cache\CacheItem;
+use Exception\RuntimeException;
 use Fairy\Cache\CacheItem;
 use CommonApi\Cache\CacheInterface;
 

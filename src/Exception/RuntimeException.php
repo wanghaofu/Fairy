@@ -3,7 +3,7 @@
  * Runtime Call Exception
  *
  */
-namespace  Fairy\Libs\Cache\CommonApi\Exception;
+namespace  Fairy\Exception;
 
 use Exception;
 use RuntimeException as Runtime;

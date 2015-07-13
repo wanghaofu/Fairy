@@ -3,12 +3,12 @@
  * Redis Adapter
  *
  */
-namespace Fairy\Libs\Cache\Driver;
+namespace Fairy\Cache\KVS;
 
 use Exception;
-use Fairy\Libs\Cache\CacheItem;
-use Fairy\Libs\Cache\CommonApi\Cache\CacheInterface;
-use Fairy\Libs\Cache\CommonApi\Exception\RuntimeException;
+use Fairy\Cache\CacheItem;
+use Fairy\Cache\CacheInterface;
+use Fairy\Exception\RuntimeException;
 use Predis\Client as RedisClient;
 
 class Redis extends AbstractAdapter implements CacheInterface
