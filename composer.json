@@ -16,7 +16,7 @@
 	
 	"autoload":{
 		"psr-0":{
-			"Fairy": "src/"
+			"Fairy": "src/Fairy"
 			}
 	}
 }
